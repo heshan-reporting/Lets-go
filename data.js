@@ -1,0 +1,156 @@
+const dashboardData = {
+  meta: {
+    reportTitle: "KL Facebook Ads Weekly Dashboard",
+    currency: "AUD",
+    currencySymbol: "$",
+    currentWeek: "Apr 13\u201319, 2026",
+    previousWeek: "Apr 6\u201312, 2026",
+    generatedAt: "April 24, 2026",
+    dataSource: "Excel Upload (kl.xlsx)",
+    partialWeek: false,
+    reportPeriod: "Apr 13, 2026 \u2013 Apr 19, 2026"
+  },
+
+  weekly: {
+    current: {
+      spend: 45002.08,
+      impressions: 6279706,
+      reach: 5058890,
+      frequency: 1.24,
+      leads: 423,
+      cpl: 4.80,
+      cpm: 7.17,
+      linkClicks: 20899,
+      landingPageViews: 12757,
+      campaignCount: 28
+    },
+    previous: {
+      spend: 23092.11,
+      impressions: 4267648,
+      reach: 3804107,
+      frequency: 1.12,
+      leads: 768,
+      cpl: 4.49,
+      cpm: 5.41,
+      linkClicks: 9864,
+      landingPageViews: 6911,
+      campaignCount: 15
+    }
+  },
+
+  campaigns: [
+    { id:"c0", name:"Seg 4 \u2013 Mar Creative Refresh \u2013 Awareness \u2013 03/Mar/2026 - Copy", type:"awareness", resultType:"Reach", status:"Active", flag:null,
+      weekly:{ current:{spend:5712.14,impressions:972573,reach:938258,frequency:1.04,leads:0,cpl:6.09,cpm:5.87,linkClicks:1222,landingPageViews:460}, previous:{spend:5494.38,impressions:1029392,reach:959832,frequency:1.07,leads:0,cpl:5.72,cpm:5.34,linkClicks:1383,landingPageViews:557} } },
+    { id:"c1", name:"Seg 6 \u2013 Mar Creative Refresh \u2013 Awareness \u2013 01/Apr/2026 - (AU wide)", type:"awareness", resultType:"Reach", status:"Active", flag:null,
+      weekly:{ current:{spend:3532.63,impressions:911977,reach:896734,frequency:1.02,leads:0,cpl:3.94,cpm:3.87,linkClicks:584,landingPageViews:347}, previous:{spend:3471.75,impressions:957912,reach:945681,frequency:1.01,leads:0,cpl:3.67,cpm:3.62,linkClicks:738,landingPageViews:806} } },
+    { id:"c2", name:"Seg 3 \u2013 VIC Apr Regional Content - Copy", type:"awareness", resultType:"Post engagements", status:"Active", flag:"\u26a0\ufe0f Frequency 2.5\u00d7 \u2014 consider creative refresh",
+      weekly:{ current:{spend:3190.55,impressions:212042,reach:83856,frequency:2.53,leads:0,cpl:1.27,cpm:15.05,linkClicks:2176,landingPageViews:1423}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c3", name:"Seg 4 \u2013 VIC Apr Regional Content \u2013 Relaunch - Copy", type:"awareness", resultType:"Post engagements", status:"Active", flag:"\u26a0\ufe0f Frequency 2.8\u00d7 \u2014 consider creative refresh",
+      weekly:{ current:{spend:3091.07,impressions:204478,reach:73462,frequency:2.78,leads:0,cpl:2.19,cpm:15.12,linkClicks:1251,landingPageViews:512}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c4", name:"Seg 3 \u2013 Mar Creative Refresh \u2013 April - Copy", type:"awareness", resultType:"Reach", status:"Active", flag:null,
+      weekly:{ current:{spend:2942.12,impressions:888024,reach:842103,frequency:1.05,leads:0,cpl:3.49,cpm:3.31,linkClicks:488,landingPageViews:390}, previous:{spend:2905.38,impressions:960743,reach:906095,frequency:1.06,leads:0,cpl:3.21,cpm:3.02,linkClicks:567,landingPageViews:1125} } },
+    { id:"c5", name:"Seg 3 \u2013 QLD Apr Regional Content - Copy", type:"awareness", resultType:"Post engagements", status:"Active", flag:null,
+      weekly:{ current:{spend:2312.80,impressions:144116,reach:58392,frequency:2.47,leads:0,cpl:1.28,cpm:16.05,linkClicks:1410,landingPageViews:718}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c6", name:"Seg 3 \u2013 NSW Apr Regional Content - Copy", type:"awareness", resultType:"Post engagements", status:"Active", flag:null,
+      weekly:{ current:{spend:2309.75,impressions:190832,reach:83624,frequency:2.28,leads:0,cpl:1.00,cpm:12.10,linkClicks:1846,landingPageViews:1232}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c7", name:"Seg 4 \u2013 NSW Apr Regional Content - Copy", type:"awareness", resultType:"Post engagements", status:"Active", flag:"\u26a0\ufe0f Frequency 2.9\u00d7 \u2014 consider creative refresh",
+      weekly:{ current:{spend:2306.95,impressions:197833,reach:67641,frequency:2.92,leads:0,cpl:1.59,cpm:11.66,linkClicks:1273,landingPageViews:588}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c8", name:"Seg 4 \u2013 QLD Apr Regional Content - Copy", type:"awareness", resultType:"Post engagements", status:"Active", flag:"\u26a0\ufe0f Frequency 2.9\u00d7 \u2014 consider creative refresh",
+      weekly:{ current:{spend:2298.62,impressions:207955,reach:70901,frequency:2.93,leads:0,cpl:1.52,cpm:11.05,linkClicks:1301,landingPageViews:462}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c9", name:"Seg 8 - Job Portal (Conversions) - 26/Mar/2026", type:"traffic", resultType:"[GTM] Job Ad Conv", status:"Active", flag:null,
+      weekly:{ current:{spend:1757.02,impressions:117564,reach:56460,frequency:2.08,leads:0,cpl:2.68,cpm:14.95,linkClicks:2488,landingPageViews:2267}, previous:{spend:888.90,impressions:61505,reach:33890,frequency:1.81,leads:0,cpl:2.52,cpm:14.45,linkClicks:1157,landingPageViews:1051} } },
+    { id:"c10", name:"Seg 8 - Job Portal (Traffic) - 26/Mar/2026", type:"traffic", resultType:"Landing page views", status:"Active", flag:null,
+      weekly:{ current:{spend:1716.02,impressions:215189,reach:136624,frequency:1.58,leads:0,cpl:0.58,cpm:7.97,linkClicks:3521,landingPageViews:2984}, previous:{spend:924.66,impressions:129033,reach:89785,frequency:1.44,leads:0,cpl:0.47,cpm:7.17,linkClicks:2220,landingPageViews:1986} } },
+    { id:"c11", name:"Seg 3 \u2013 Ethnic Chinese - Apr $240/day - Copy", type:"awareness", resultType:"Reach", status:"Active", flag:null,
+      weekly:{ current:{spend:1699.45,impressions:209136,reach:182290,frequency:1.15,leads:0,cpl:9.32,cpm:8.13,linkClicks:248,landingPageViews:148}, previous:{spend:765.01,impressions:136135,reach:128117,frequency:1.06,leads:0,cpl:5.97,cpm:5.62,linkClicks:147,landingPageViews:88} } },
+    { id:"c12", name:"Seg 3 \u2013 Ethnic Hindi - March $240/day - Copy", type:"awareness", resultType:"Reach", status:"Active", flag:null,
+      weekly:{ current:{spend:1694.49,impressions:193520,reach:166303,frequency:1.16,leads:0,cpl:10.19,cpm:8.76,linkClicks:258,landingPageViews:145}, previous:{spend:760.77,impressions:127420,reach:118167,frequency:1.08,leads:0,cpl:6.44,cpm:5.97,linkClicks:159,landingPageViews:86} } },
+    { id:"c13", name:"Seg 3 \u2013 Ethnic Arabic - Apr $240/day - Revised caption - Copy", type:"awareness", resultType:"Reach", status:"Active", flag:null,
+      weekly:{ current:{spend:1682.14,impressions:217786,reach:184394,frequency:1.18,leads:0,cpl:9.12,cpm:7.72,linkClicks:311,landingPageViews:177}, previous:{spend:764.73,impressions:150129,reach:136116,frequency:1.10,leads:0,cpl:5.62,cpm:5.09,linkClicks:188,landingPageViews:105} } },
+    { id:"c14", name:"Seg 3 \u2013 Tax awareness 13/Apr/26 - Copy", type:"awareness", resultType:"Reach", status:"Active", flag:null,
+      weekly:{ current:{spend:1244.03,impressions:434047,reach:434047,frequency:1.00,leads:0,cpl:2.87,cpm:2.87,linkClicks:164,landingPageViews:88}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c15", name:"Seg 4 \u2013 Tax awareness 13/Apr/26 - Copy", type:"awareness", resultType:"Reach", status:"Active", flag:null,
+      weekly:{ current:{spend:1234.59,impressions:373800,reach:373800,frequency:1.00,leads:0,cpl:3.30,cpm:3.30,linkClicks:146,landingPageViews:55}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c16", name:"Seg 3 - Quiz (Instant Forms) 06 Mar 2026 (Correct form)", type:"lead_gen", resultType:"Leads (form)", status:"Active", flag:null,
+      weekly:{ current:{spend:1094.85,impressions:49892,reach:28376,frequency:1.76,leads:229,cpl:4.78,cpm:21.94,linkClicks:479,landingPageViews:56}, previous:{spend:1372.36,impressions:65436,reach:32273,frequency:2.03,leads:315,cpl:4.36,cpm:20.97,linkClicks:647,landingPageViews:76} } },
+    { id:"c17", name:"Seg 3 \u2013 QLD Apr Regional Content", type:"awareness", resultType:"Post engagements", status:"Inactive", flag:null,
+      weekly:{ current:{spend:826.24,impressions:37355,reach:29128,frequency:1.28,leads:0,cpl:4.42,cpm:22.12,linkClicks:156,landingPageViews:115}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c18", name:"Seg 2 \u2013 Mar Batch \u2013 Awareness \u2013 03/Mar/2026 - Copy", type:"awareness", resultType:"Reach", status:"Active", flag:null,
+      weekly:{ current:{spend:702.02,impressions:268640,reach:179252,frequency:1.50,leads:0,cpl:3.92,cpm:2.61,linkClicks:209,landingPageViews:54}, previous:{spend:695.89,impressions:284647,reach:188872,frequency:1.51,leads:0,cpl:3.68,cpm:2.44,linkClicks:217,landingPageViews:61} } },
+    { id:"c19", name:"Seg 4 \u2013 QLD Apr Regional Content", type:"awareness", resultType:"Post engagements", status:"Inactive", flag:null,
+      weekly:{ current:{spend:679.54,impressions:30700,reach:24233,frequency:1.27,leads:0,cpl:4.47,cpm:22.13,linkClicks:135,landingPageViews:59}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c20", name:"Seg 4 \u2013 NSW Apr Regional Content", type:"awareness", resultType:"Post engagements", status:"Inactive", flag:null,
+      weekly:{ current:{spend:595.05,impressions:28007,reach:19009,frequency:1.47,leads:0,cpl:4.13,cpm:21.25,linkClicks:135,landingPageViews:57}, previous:{spend:0.12,impressions:1,reach:1,frequency:1.00,leads:0,cpl:0,cpm:120.00,linkClicks:0,landingPageViews:0} } },
+    { id:"c21", name:"Seg 6 - Quiz (Instant Forms) 06 Mar 2026", type:"lead_gen", resultType:"Leads (form)", status:"Active", flag:null,
+      weekly:{ current:{spend:559.34,impressions:21843,reach:11836,frequency:1.85,leads:174,cpl:3.21,cpm:25.61,linkClicks:431,landingPageViews:55}, previous:{spend:959.27,impressions:34367,reach:16127,frequency:2.13,leads:347,cpl:2.76,cpm:27.91,linkClicks:729,landingPageViews:97} } },
+    { id:"c22", name:"Seg 3 \u2013 NSW Apr Regional Content", type:"awareness", resultType:"Post engagements", status:"Inactive", flag:null,
+      weekly:{ current:{spend:488.02,impressions:27488,reach:19064,frequency:1.44,leads:0,cpl:2.39,cpm:17.75,linkClicks:182,landingPageViews:128}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c23", name:"Seg 4 \u2013 VIC Apr Regional Content \u2013 Relaunch", type:"awareness", resultType:"Post engagements", status:"Inactive", flag:null,
+      weekly:{ current:{spend:482.99,impressions:23949,reach:8259,frequency:2.90,leads:0,cpl:4.35,cpm:20.17,linkClicks:105,landingPageViews:47}, previous:{spend:464.87,impressions:29946,reach:8676,frequency:3.45,leads:0,cpl:3.02,cpm:15.52,linkClicks:144,landingPageViews:62} } },
+    { id:"c24", name:"Seg 4 - Quiz (Instant Forms) 06 Mar 2026 - No Cap \u2013 Shorter", type:"lead_gen", resultType:"Leads (form)", status:"Active", flag:null,
+      weekly:{ current:{spend:377.01,impressions:8131,reach:5632,frequency:1.44,leads:20,cpl:18.85,cpm:46.37,linkClicks:99,landingPageViews:11}, previous:{spend:385.16,impressions:9881,reach:6576,frequency:1.50,leads:16,cpl:24.07,cpm:38.98,linkClicks:100,landingPageViews:6} } },
+    { id:"c25", name:"Seg 3 \u2013 VIC Apr Regional Content", type:"awareness", resultType:"Post engagements", status:"Inactive", flag:null,
+      weekly:{ current:{spend:292.34,impressions:25921,reach:19989,frequency:1.30,leads:0,cpl:0.96,cpm:11.28,linkClicks:244,landingPageViews:162}, previous:{spend:580.72,impressions:53506,reach:35182,frequency:1.52,leads:0,cpl:0.63,cpm:10.85,linkClicks:670,landingPageViews:497} } },
+    { id:"c26", name:"Seg 3 \u2013 Tax awareness 13/Apr/26", type:"awareness", resultType:"Reach", status:"Inactive", flag:null,
+      weekly:{ current:{spend:102.90,impressions:38952,reach:37749,frequency:1.03,leads:0,cpl:2.73,cpm:2.64,linkClicks:16,landingPageViews:10}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c27", name:"Seg 4 \u2013 Tax awareness 13/Apr/26", type:"awareness", resultType:"Reach", status:"Inactive", flag:null,
+      weekly:{ current:{spend:77.41,impressions:27956,reach:27474,frequency:1.02,leads:0,cpl:2.82,cpm:2.77,linkClicks:21,landingPageViews:7}, previous:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0} } },
+    { id:"c28", name:"Seg 3 \u2013 Ethnic Chinese - March $290/day - Copy", type:"awareness", resultType:"Reach", status:"Inactive", flag:null,
+      weekly:{ current:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0}, previous:{spend:578.33,impressions:63211,reach:60060,frequency:1.05,leads:0,cpl:9.63,cpm:9.15,linkClicks:128,landingPageViews:82} } },
+    { id:"c29", name:"Seg 3 \u2013 Ethnic Hindi - March $290/day - Copy", type:"awareness", resultType:"Reach", status:"Inactive", flag:null,
+      weekly:{ current:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0}, previous:{spend:588.13,impressions:53996,reach:48428,frequency:1.11,leads:0,cpl:12.14,cpm:10.89,linkClicks:101,landingPageViews:52} } },
+    { id:"c30", name:"Seg 3 \u2013 Ethnic Arabic - March $290/day - Revised caption - Copy", type:"awareness", resultType:"Reach", status:"Inactive", flag:null,
+      weekly:{ current:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0}, previous:{spend:582.92,impressions:60697,reach:52835,frequency:1.15,leads:0,cpl:11.03,cpm:9.60,linkClicks:113,landingPageViews:77} } },
+    { id:"c31", name:"Seg 8 - Job Portal (Instant Form) - 30/Mar/2026 - Copy", type:"lead_gen", resultType:"Leads (form)", status:"Inactive", flag:null,
+      weekly:{ current:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0}, previous:{spend:380.22,impressions:22353,reach:12513,frequency:1.79,leads:68,cpl:5.59,cpm:17.01,linkClicks:250,landingPageViews:45} } },
+    { id:"c32", name:"Seg 2 - Quiz (Instant Forms) 06 Mar 2026 - No caps", type:"lead_gen", resultType:"Leads (form)", status:"Inactive", flag:null,
+      weekly:{ current:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0}, previous:{spend:354.22,impressions:23262,reach:15748,frequency:1.48,leads:22,cpl:16.10,cpm:15.23,linkClicks:106,landingPageViews:6} } },
+    { id:"c33", name:"Seg 4 \u2013 VIC Apr Regional Content", type:"awareness", resultType:"Post engagements", status:"Inactive", flag:null,
+      weekly:{ current:{spend:0,impressions:0,reach:0,frequency:0,leads:0,cpl:0,cpm:0,linkClicks:0,landingPageViews:0}, previous:{spend:174.32,impressions:14076,reach:9133,frequency:1.54,leads:0,cpl:1.25,cpm:12.38,linkClicks:100,landingPageViews:46} } }
+  ],
+
+  dailyTrend: [
+    { date:"Apr 6\u201312", spend:23092.11, leads:768, cpm:5.41, reach:3804107, impressions:4267648 },
+    { date:"Apr 13\u201319", spend:45002.08, leads:423, cpm:7.17, reach:5058890, impressions:6279706 }
+  ],
+
+  cplDailyTrend: [
+    { date:"Apr 6\u201312", cpl:4.49, leads:768 },
+    { date:"Apr 13\u201319", cpl:4.80, leads:423 }
+  ],
+
+  alerts: [
+    { type:"warning", icon:"\uD83D\uDCC9", title:"Lead Volume Down \u221245%",
+      message:"423 leads this week vs 768 last week. Several lead-gen campaigns (Seg 8 Job Portal, Seg 2 Quiz) went inactive mid-period.",
+      action:"Review and reactivate lead-gen campaigns or increase budget on active Quiz campaigns." },
+    { type:"warning", icon:"\uD83D\uDCC8", title:"CPM Rising +32%",
+      message:"Account CPM jumped from $5.41 to $7.17 \u2014 driven by new engagement/regional campaigns with inherently higher CPMs ($11\u201316 vs $5\u20136 for awareness).",
+      action:"Monitor CPMs on Quiz/lead-gen campaigns specifically, not account blended." },
+    { type:"info", icon:"\uD83D\uDE80", title:"Spend Scaled +95%",
+      message:"Eight new regional content campaigns (VIC, QLD, NSW) launched this week, nearly doubling account spend to $45,002.",
+      action:"Ensure tracking and UTMs are live on all new regional campaigns." },
+    { type:"success", icon:"\u2705", title:"Lead-Gen CPL Stable at $4.80",
+      message:"CPL on active Quiz lead-gen campaigns is $4.80 vs $4.49 \u2014 only 6.9% increase despite reduced volume. Strong efficiency maintained.",
+      action:"Scale Seg 3 and Seg 6 Quiz budgets to recover lead volume." },
+    { type:"warning", icon:"\uD83D\uDD01", title:"Audience Frequency Rising",
+      message:"Seg 4 VIC Relaunch (2.8\u00d7), Seg 4 QLD (2.9\u00d7), Seg 4 NSW (2.9\u00d7) showing elevated frequency after one week. Monitor closely.",
+      action:"Expand audience targeting or rotate creative if frequency exceeds 3\u00d7 next week." }
+  ],
+
+  recommendations: [
+    { priority:1, effort:"Low", impact:"High", title:"Scale Seg 3 & Seg 6 Quiz Budgets",
+      description:"Lead volume dropped 45% as legacy lead-gen campaigns went dark. Active Seg 3 Quiz ($4.78 CPL, 229 leads) and Seg 6 Quiz ($3.21 CPL, 174 leads) are highly efficient \u2014 increase daily budgets to recover lead targets." },
+    { priority:2, effort:"Medium", impact:"High", title:"Launch New Lead-Gen Campaign",
+      description:"Only 3 lead-gen campaigns active vs 5+ last week. Deploy a new Seg 4 or Seg 8 lead-gen campaign to replace the paused Job Portal and Seg 2 Quiz capacity." },
+    { priority:3, effort:"Low", impact:"Medium", title:"Monitor Regional Campaign Frequency",
+      description:"New VIC/QLD/NSW regional content campaigns launched at 2.5\u20132.9\u00d7 frequency after one week. If frequency tops 3\u00d7 next week, refresh creative or broaden targeting." },
+    { priority:4, effort:"Low", impact:"Medium", title:"Audit Regional Campaign Tracking",
+      description:"All 8 new regional campaigns launched this week. Verify Meta Pixel or CAPI events are firing correctly and UTM parameters are attached before committing more budget." },
+    { priority:5, effort:"Medium", impact:"Low", title:"Consolidate Zero-Spend Campaigns",
+      description:"65 campaigns are archived or inactive with $0 spend in both periods. Archiving these simplifies account structure and makes optimisation decisions faster." }
+  ],
+
+  weeklySummary: "This week delivered 423 leads at a $4.80 CPL \u2014 down 45% in volume from last week's 768 leads, driven by the Seg 8 Job Portal and Seg 2 Quiz campaigns going inactive rather than any efficiency problem (CPL rose only 7%). Reach expanded 33% to 5.1M Accounts Center accounts and spend nearly doubled to $45,002, fuelled by the launch of eight new regional content campaigns across VIC, QLD and NSW. CPM rose 32% to $7.17, reflecting the naturally higher CPM profile of engagement and regional placement campaigns rather than auction saturation. The single most important action this week is to scale the active Seg 3 ($4.78 CPL) and Seg 6 ($3.21 CPL) Quiz budgets \u2014 both are running efficiently and can quickly close the gap on lost lead volume."
+};
+
+if (typeof module !== "undefined") module.exports = dashboardData;
